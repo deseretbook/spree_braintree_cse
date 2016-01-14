@@ -2,8 +2,8 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_braintree_cse'
-  s.version     = '2.3.14'
-  s.summary     = 'Braintree for Spree with Client-Side Encryption support'
+  s.version     = '2.3.9999'
+  s.summary     = 'Braintree for Solidus with Client-Side Encryption support'
   s.description = ''
   s.required_ruby_version = '>= 1.9.3'
 
@@ -16,9 +16,9 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '>= 2.3.4'
-  s.add_dependency 'spree_gateway'
-  s.add_dependency 'activemerchant', '~> 1.44.9999'
+  s.add_dependency 'solidus_core', '~> 1.1.0'
+  s.add_dependency 'solidus_gateway'
+  s.add_dependency 'activemerchant', '~> 1.48.9999'
   s.add_dependency 'braintree', '~> 2.35.0'
 
   s.add_development_dependency 'capybara', '~> 2.4'
